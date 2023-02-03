@@ -25,7 +25,7 @@
     <conf name="default" type="2">
       <toolsSet>
         <developmentServer>localhost</developmentServer>
-        <targetDevice>ATtiny3217</targetDevice>
+        <targetDevice>ATmega324PB</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
         <platformTool>PK5Tool</platformTool>
@@ -34,7 +34,7 @@
         <platform>2</platform>
       </toolsSet>
       <packs>
-        <pack name="ATtiny_DFP" vendor="Microchip" version="3.1.157"/>
+        <pack name="ATmega_DFP" vendor="Microchip" version="3.1.263"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -114,7 +114,6 @@
         <property key="create-html-files" value="false"/>
         <property key="data-model-ram" value=""/>
         <property key="data-model-size-of-double" value="24"/>
-        <property key="data-model-size-of-double-float" value="24 bit"/>
         <property key="data-model-size-of-double-gcc" value="no-short-double"/>
         <property key="data-model-size-of-float" value="24"/>
         <property key="data-model-size-of-float-gcc" value="no-short-float"/>

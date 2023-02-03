@@ -33,4 +33,4 @@ MP_CC_DIR="/opt/microchip/xc8/v2.40/bin"
 MP_AS_DIR="/opt/microchip/xc8/v2.40/bin"
 MP_LD_DIR="/opt/microchip/xc8/v2.40/bin"
 MP_AR_DIR="/opt/microchip/xc8/v2.40/bin"
-DFP_DIR=/home/lib/packs/Microchip/ATtiny_DFP/3.1.157
+DFP_DIR=/home/lib/packs/Microchip/ATmega_DFP/3.1.263
