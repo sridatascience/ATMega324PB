@@ -1,6 +1,6 @@
 #include <avr/io.h>
 
-int m =10;
+volatile int m =10;
 int add(uint8_t n, uint8_t o, uint8_t p ){
    return n+o+p;
 }
