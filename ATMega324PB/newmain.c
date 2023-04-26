@@ -1,18 +1,19 @@
 #include <avr/io.h>
 
 volatile int m =10;
-int add(volatile uint8_t n, volatile uint8_t o, volatile uint8_t p ){
+int add(uint8_t n, uint8_t o, uint8_t p ){
    return n+o+p;
 }
 int main() {
    volatile int a = 0x05;
-   PORTA = a;
-   m = PORTA;
+   SPCR1 = a;
+   m = SPCR1;
    volatile int c = 0x1F;
-   PORTB = c;
+   DDRD = c;
    volatile int b =0x08;
-   PORTC = b;
+   DDRC = b;
    volatile int t = add(a,b,c);
-   PORTD =t;
+   DDRB =t;
+   t =a+b+c;
    return 0;
 }
