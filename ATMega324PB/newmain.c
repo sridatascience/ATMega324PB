@@ -5,7 +5,7 @@ volatile uint8_t add(volatile uint8_t n, volatile uint8_t o, volatile uint8_t p 
    return n+o+p;
 }
 int main() {
-   volatile uinit8_t a = 0x05;
+   volatile uint8_t a = 0x05;
    SPCR1 = a;
    m = SPCR1;
    volatile uint8_t c = 0x1F;
